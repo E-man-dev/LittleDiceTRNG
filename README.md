@@ -5,4 +5,4 @@ This uses the Infineon's Arduino library (https://github.com/Infineon/arduino-op
 
 From there, build the code, load it onto the code, and you are good to go! Please keep in mind that I made the case designs with an educational license copy of Fusion 360, so any restrictions imposed by the code I have built upon and the software I have used cannot be violated, even if my licensing is permissive.
 
-If you are interested in building the case, I recommend using PLA for the top and bottom and TPU for the side. It looks nice with shiny orange PLA and black TPU, but filaments these days are good enough where what color you pick shouldn't affect print quality.
+If you are interested in building the case, I recommend using PLA for the top and bottom and TPU for the side. It looks nice with shiny orange PLA and black TPU, but filaments these days are good enough where what color you pick shouldn't affect print quality. The little hole in the corner is in case you want to put it on a keychain ring.
