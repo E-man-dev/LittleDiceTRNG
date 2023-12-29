@@ -68,7 +68,6 @@ void setup(void) {
   Serial.println(time, DEC);
   delay(400);
 
-  // large block of text
   tft.fillScreen(ST77XX_BLACK);
   /*
    * Initialise an OPTIGA™ Trust X Board
@@ -112,21 +111,19 @@ void setup(void) {
 
 
 void buttonlabels() {
-  // 
   tft.fillScreen(ST77XX_BLACK);
-  //if (buttonState0 == LOW) {
-  //  tft.fillTriangle(1, 10, 20, 1, 20, 20, ST77XX_RED);
-  //}
-  //else {
-  //  tft.fillTriangle(1, 10, 20, 1, 20, 20, ST77XX_WHITE);
-  //}
+  if (buttonState0 == LOW) {
+    tft.fillTriangle(1, 10, 20, 1, 20, 20, ST77XX_RED);
+  }
+  else {
+    tft.fillTriangle(1, 10, 20, 1, 20, 20, ST77XX_WHITE);
+  }
   if (buttonState1 == HIGH) {
     tft.fillCircle(10, 68, 10, ST77XX_RED);
   }
   else {
     tft.fillCircle(10, 68, 10, ST77XX_WHITE);
   }
-  //valueRange[];
   if (buttonState2 == HIGH) {
     tft.fillTriangle(1, 115, 1, 135, 20, 125, ST77XX_RED);
   }
